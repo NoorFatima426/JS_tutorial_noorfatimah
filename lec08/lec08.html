@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- inline event handling (old method) -->
+    <button onclick="console.log('button was clicked!')">Click me!</button>
+    <button ondblclick="console.log('button was clicked! 2x')">Click me 2 times!</button>
+    <div style="background-color: dodgerblue; border: 2px solid black; height: 100px; width: 100px; color: #ffff;" onmouseover="console.log('you are hovering on a div')"> hover here</div>
+    
+    <!-- handling events in js -->
+    <button id="mybtn">Click here now</button>
+    <div style="background-color: dodgerblue; border: 2px solid black; height: 100px; width: 100px; color: #ffff;" id="box"> hover here now</div>
+
+    <!-- Add Event Listener -->
+     <button id="mybtn2">Click here now!!!</button>
+    <div style="background-color: rgb(96, 156, 215); border: 2px solid black; height: 100px; width: 100px; color: #ffff;" id="box2"> hover here now /</div>
+
+    <!-- Practice question 1 -->
+     <button id="toggleBtn">Toggle button</button>
+      <!-- Practice question 2-->
+       <div id="toggleBox"
+       style="background-color: red; width: 120px; height: 120px; text-align: center; color: white; border:3px solid black"
+       >
+        Click here and change the color ( Red <=> Green)
+       </div>
+    <script src="./lec08.js"></script>
+</body>
+</html>
